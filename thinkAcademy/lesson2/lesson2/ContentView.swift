@@ -18,7 +18,8 @@ struct ContentView: View {
                 NavigationLink("Problem 2", destination: problem2View())
             }
             .navigationTitle("Lesson 2 homework")
-            Text("Select a problem")
+            problem1View()
+//            Text("Hello Aiden :)").font(.largeTitle)
         }
     }
 }
