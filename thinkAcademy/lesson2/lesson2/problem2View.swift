@@ -70,7 +70,7 @@ struct problem2View: View {
         self.PossRes = self.PossRes.sorted()
 //        self.PossRes = Array(Set(self.PossRes))
     }
-        private var gridLayout1 = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
+        private var gridLayout1 = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
 
     @State private var showAlert : Bool = false
     @State private var isCorrect : Bool = false
